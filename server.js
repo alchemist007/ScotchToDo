@@ -6,8 +6,8 @@ var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 
 //configuration
-mongoose.connect('mongodb://hsenesh:neshneha@jello.modulusmongo.net:27017/iv4Erari');     // connect to mongoDB database on modulus.io
-//mongoose.connect('mongodb://nesh:neshneha@ec2-52-90-201-248.compute-1.amazonaws.com:{27017}/dummyDB');
+//mongoose.connect('mongodb://hsenesh:neshneha@jello.modulusmongo.net:27017/iv4Erari');     // connect to mongoDB database on modulus.io
+mongoose.connect('mongodb://nesh:neshneha@ec2-54-158-172-168.compute-1.amazonaws.com:{27017}/dummyDB');
 mongodb://node:nodeuser@mongo.onmodulus.net:27017/uwO3mypu
 
 app.use(express.static(__dirname + '/public'));                 // set the static files location /public/img will be /img for users
