@@ -7,8 +7,10 @@ var methodOverride = require('method-override');
 
 //configuration
 //mongoose.connect('mongodb://hsenesh:neshneha@jello.modulusmongo.net:27017/iv4Erari');     // connect to mongoDB database on modulus.io
-mongoose.connect('mongodb://nesh:neshneha@ec2-54-158-172-168.compute-1.amazonaws.com:{27017}/dummyDB');
-mongodb://node:nodeuser@mongo.onmodulus.net:27017/uwO3mypu
+mongoose.connect('mongodb://nesh:neshneha@ec2-54-158-172-168.compute-1.amazonaws.com:27017/dummyDB');
+//mongodb://node:nodeuser@mongo.onmodulus.net:27017/uwO3mypu
+
+//mongodb://todoAholic:scotchio@ec2-52-0-14-185.compute-1.amazonaws.com:27017/dummyDB'
 
 app.use(express.static(__dirname + '/public'));                 // set the static files location /public/img will be /img for users
 app.use(morgan('dev'));                                         // log every request to the console
